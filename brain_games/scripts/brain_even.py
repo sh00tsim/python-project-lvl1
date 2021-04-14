@@ -35,5 +35,5 @@ def main():
     even_number()
 
 
-if __nmae__ == '__main__':
+if __name__ == '__main__':
     main()
