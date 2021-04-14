@@ -22,13 +22,12 @@ def even_number():
         number = randint(1, 99)
         is_even = is_even_number(number)
         user_answer = answer_user(number)
-        name_user = welcome_user.name
         if is_even == user_answer:
             print('Correct!')
             count_correct_answers += 1
         else:
-            return print("'{}' is wrong answer ;(. Correct answer was '{}'.\nLet's try again, {}!".format(user_answer, is_even, name_user))
-    return print('Congratulations, {}!'.format(name_user))
+            return print("'{}' is wrong answer ;(. Correct answer was '{}'.\nLet's try again!".format(user_answer, is_even))
+    return print('Congratulations!')
 
 def main():
     welcome_user()
