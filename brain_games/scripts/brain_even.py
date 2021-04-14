@@ -10,10 +10,12 @@ def is_even_number(number):
         return 'yes'
     return 'no'
 
+
 def answer_user(number):
     print('Question: {}'.format(number))
     answer = prompt.string('Your answer: ')
     return answer
+
 
 def even_number():
     count_correct_answers = 0
@@ -26,8 +28,9 @@ def even_number():
             print('Correct!')
             count_correct_answers += 1
         else:
-            return print("'{}' is wrong answer ;(. Correct answer was '{}'.\nLet's try again!".format(user_answer, is_even))
+            return print("'{}' is wrong answer ;(. Correct answer was '{}.\nLet's try again!".format(user_answer, is_even))
     return print('Congratulations!')
+
 
 def main():
     welcome_user()
