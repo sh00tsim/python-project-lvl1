@@ -2,7 +2,13 @@
 
 import prompt
 from random import randint
-from brain_games.cli import welcome_user
+
+
+def welcome_user():
+    global name
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print('Hello, {}!'.format(name))
 
 
 def is_even_number(number):
@@ -28,8 +34,11 @@ def even_number():
             print('Correct!')
             count_correct_answers += 1
         else:
-            return print("'{}' is wrong answer ;(. Correct answer was '{}.\nLet's try again!".format(user_answer, is_even))
-    return print('Congratulations!')
+            defeat_message = "'{}' is wrong answer ;(. ".format(user_answer)
+            defeat_message += "Correct anwes was '{}'.".format(is_even)
+            defeat_message += "\nLet's try again, {}!".format(name)
+            return print(defeat_message)
+    return print('Congratulations, {}!'.format(name))
 
 
 def main():
