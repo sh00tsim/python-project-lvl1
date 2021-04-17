@@ -1,6 +1,5 @@
 import prompt
 from random import randint
-from brain_games.implementer import welcome_user
 from brain_games.implementer import defeat_message
 from brain_games.implementer import victory_message
 
