@@ -4,3 +4,4 @@
 [![Github Actions Status](https://github.com/sh00tsim/python-project-lvl1/workflows/Python%20CI/badge.svg)](https://github.com/sh00tsim/python-project-lvl1/actions)
 [![asciicast](https://asciinema.org/a/6SljxGbuhtHinqc4T7KwK9hD4.svg)](https://asciinema.org/a/6SljxGbuhtHinqc4T7KwK9hD4)
 [![asciicast](https://asciinema.org/a/dYtBREWkMQrM0ikjL2P33hSH6.svg)](https://asciinema.org/a/dYtBREWkMQrM0ikjL2P33hSH6)
+[![asciicast](https://asciinema.org/a/BCgK3Gb5GLXbUtR10hqHQluVt.svg)](https://asciinema.org/a/BCgK3Gb5GLXbUtR10hqHQluVt)
