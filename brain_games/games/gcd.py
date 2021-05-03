@@ -19,7 +19,7 @@ def correct_answer(number_one, number_two):
 
 
 def user_answer(number_one, number_two):
-    print('Question: GCD({}, {})'.format(number_one, number_two))
+    print('Question: {}, {}'.format(number_one, number_two))
     global answer
     answer = prompt.string('Your answer: ')
     return answer
